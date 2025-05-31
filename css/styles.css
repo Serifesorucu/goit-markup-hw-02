@@ -43,6 +43,11 @@ body {
 .logo {
  color: var(--iris);
  font-family: 'Raleway', sans-serif;
+ font-weight: 700;
+ font-size: var(--font-footer-logo);
+ letter-spacing: var(--letter-spacing-footer-logo);
+ line-height: var(--line-height-footer-logo);
+ text-decoration: none;
 }
 .logo span {
  color: var(--navy-blue);
@@ -51,6 +56,7 @@ body {
  background-color: var(--white);
  color: var(--navy-blue);
 }
+
 .nav-list-ul {
   color: var(--navy-blue);
 }
@@ -60,20 +66,30 @@ body {
  font-weight: 500;
  line-height: var(--line-height-portfolio);
  letter-spacing: var(--line-height-portfolio);
+ text-decoration: none;
+}
+.nav-li:hover {
+ color: var(--ocean);
 }
 .address {
  background-color: var(--white);
 }
-.address-link {
-  color: var(--navy-blue);
+a {
+  color var(navy-blue);
   font-size: 16;
   font-weight: 500;
   line-height: var(--line-height-portfolio);
   letter-spacing: var(--line-height-portfolio);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--ocean);
 }
 .Order-button {
     background-color: var(--iris);
     color: var(--white);
+    height: 56px;
+    width: 169px;
     cursor: pointer;
     font-weight: 500;
 }
@@ -83,11 +99,14 @@ body {
 h1 {
  background-color: var(--navy-blue);
  color: var(--white);
+ height: 120px;
+ width: 496px;
  font-size: var(--font-h1);
  font-weight: 700;
  line-height : var(--font-height-h1);
  letter-spacing: var(--letter-spacing-h1);
 }
+
 h2 {
 background-color: var(--white);
  color: var(--navy-blue);
@@ -128,13 +147,17 @@ h3 {
 
 footer {
  background-color: var(--navy-blue);
+ height: 312px;
+ width: 1440px;
 }
 .footer-logo {
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: var(--font-footer-logo);
   line-height: var(--line-height-footer-logo);
   letter-spacing: var(--letter-spacing-footer-logo);
+  text-decoration: none;
 }
 .footer-logo-span {
  color: var(--cloud);
