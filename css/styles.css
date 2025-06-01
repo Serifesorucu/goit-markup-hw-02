@@ -75,7 +75,7 @@ body {
  background-color: var(--white);
 }
 a {
-  color var(navy-blue);
+  color: var(--slate);
   font-size: 16;
   font-weight: 500;
   line-height: var(--line-height-portfolio);
@@ -85,22 +85,26 @@ a {
 a:hover {
   color: var(--ocean);
 }
+.section {
+ background-color: var(--navy-blue);
+}
 .Order-button {
     background-color: var(--iris);
     color: var(--white);
-    height: 56px;
-    width: 169px;
     cursor: pointer;
     font-weight: 500;
+section {
+ 
+}
 }
 .Order-button:hover {
    background-color: var(--ocean);
 }
 h1 {
- background-color: var(--navy-blue);
  color: var(--white);
- height: 120px;
- width: 496px;
+ background-color: var(--navy-blue);
+ height: 159px;
+ width: 1050px;
  font-size: var(--font-h1);
  font-weight: 700;
  line-height : var(--font-height-h1);
