@@ -52,15 +52,15 @@ body {
 .logo span {
  color: var(--navy-blue);
 }
-.nav-menü {
+.Nav-menü {
  background-color: var(--white);
  color: var(--navy-blue);
 }
 
-.nav-list-ul {
+.Nav-list-ul {
   color: var(--navy-blue);
 }
-.nav-li {
+.Nav-li {
  color: var(--navy-blue);
  font-size: var(--font-body);
  font-weight: 500;
@@ -68,7 +68,7 @@ body {
  letter-spacing: var(--line-height-portfolio);
  text-decoration: none;
 }
-.nav-li:hover {
+.Nav-li:hover {
  color: var(--ocean);
 }
 .address {
@@ -88,16 +88,13 @@ a:hover {
 .section {
  background-color: var(--navy-blue);
 }
+
 .Order-button {
     background-color: var(--iris);
     color: var(--white);
     cursor: pointer;
     font-weight: 500;
-    width: 169px;
-    height: 56px;
-section {
- 
-}
+    border-radius: 4px;
 }
 .Order-button:hover {
    background-color: var(--ocean);
@@ -112,6 +109,7 @@ h1 {
  line-height : var(--font-height-h1);
  letter-spacing: var(--letter-spacing-h1);
 }
+
 
 h2 {
 background-color: var(--white);
