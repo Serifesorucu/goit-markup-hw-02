@@ -52,15 +52,15 @@ body {
 .logo span {
  color: var(--navy-blue);
 }
-.nav-menü {
+.Nav-menü {
  background-color: var(--white);
  color: var(--navy-blue);
 }
 
-.nav-list-ul {
+.Nav-list-ul {
   color: var(--navy-blue);
 }
-.nav-li {
+.Nav-li {
  color: var(--navy-blue);
  font-size: var(--font-body);
  font-weight: 500;
@@ -68,7 +68,7 @@ body {
  letter-spacing: var(--line-height-portfolio);
  text-decoration: none;
 }
-.nav-li:hover {
+.Nav-li:hover {
  color: var(--ocean);
 }
 .address {
