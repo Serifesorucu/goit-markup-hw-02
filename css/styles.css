@@ -52,15 +52,15 @@ body {
 .logo span {
  color: var(--navy-blue);
 }
-.Nav-menü {
+.nav-menü {
  background-color: var(--white);
  color: var(--navy-blue);
 }
 
-.Nav-list-ul {
+.nav-list-ul {
   color: var(--navy-blue);
 }
-.Nav-li {
+.nav-li {
  color: var(--navy-blue);
  font-size: var(--font-body);
  font-weight: 500;
@@ -68,7 +68,7 @@ body {
  letter-spacing: var(--line-height-portfolio);
  text-decoration: none;
 }
-.Nav-li:hover {
+.nav-li:hover {
  color: var(--ocean);
 }
 .address {
@@ -127,21 +127,21 @@ h3 {
  line-height: var(line-height-h3);
  letter-spacing; var(letter-spacing-h3);
  } 
-.section-description {
+.Section-description {
  color: var(--slate);
  font-size: var(--font-medium);
  font-weight: 400;
  line-height: var(--line-height-section-description);
  letter-spacing: var(--letter-spacing-section-description);
 }
-.team-title {
+.Team-title {
   color: var(--slate); 
   font-size: var(--font-team); 
   font-weight: 400;
   line-height: var(--line-height-team-title);
   letter-spacing: var(--letter-spacing-team-title);
 }
-.portfolio {
+.Portfolio {
  color: var(--slate);
  font-size: var(--font-medium);
  font-weight: 400;
